@@ -10,38 +10,7 @@
     src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
   />
 </a>
-<script type="text/javascript">
- Kakao.init('37680fb2b8f87c2ffd0e8f2835ba8d6b');
-  function sendLink() {
-    Kakao.Link.sendDefault({
-      objectType: 'feed',
-      content: {
-        title: 'title',
-        description: 'description',
-        imageUrl:
-          '',
-        link: {
-          mobileWebUrl: '',
-          webUrl: '',
-        },
-      },
-      social: {
-        likeCount: 좋아요 수, //99999가 최대입니다
-        commentCount: 댓글 수, //99999가 최대입니다
-        sharedCount: 공유 수, //99999가 최대입니다
-      },
-      buttons: [
-        {
-          title: 'Button Test',
-          link: {
-            mobileWebUrl: '',
-            webUrl: 'https://wms.acieshop.com',
-          },
-        },
-      ],
-    })
-  }
-</script>
+  
 <!-- www.blackcats4567.com -->
 <!-- 이미지/버튼 클릭 시 주소는 Kakao Developers의 애플리케이션 > 플랫폼 > Web에 넣어야 클릭했을때 성공적으로 표시됩니다 -->
   </body>
